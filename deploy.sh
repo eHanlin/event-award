@@ -1,7 +1,7 @@
 #!/bin/bash
 test="http://test.ehanlin.com.tw/event/api/Deploy"
 production="http://www.ehanlin.com.tw/event/api/Deploy"
-repository="{\"Repository\":\"event-essay-hswriting\",\"Tag\":\"${TRAVIS_TAG}\",\"Owner\":\"eHanlin\",\"Password\":\"${EHANLIN_PW}\",\"Name\":\"essay-hswriting\"}"
+repository="{\"Repository\":\"event-award\",\"Tag\":\"${TRAVIS_TAG}\",\"Owner\":\"eHanlin\",\"Password\":\"${EHANLIN_PW}\",\"Name\":\"event-award\"}"
 contentTypeJson="Content-Type: application/json"
 
 case "${TRAVIS_TAG}" in
