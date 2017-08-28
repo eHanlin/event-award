@@ -1,0 +1,133 @@
+#ehanlin-header {
+  text-align: right;
+}
+.box-body {
+  padding: 10px;
+  font-size: 12px;
+}
+.box-body p {
+  font-size: 15px;
+  padding: 5px;
+  color: black;
+}
+.box-body p.sweet-tip {
+  margin: 10px 0;
+}
+.box-body p.sweet-tip .head {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+}
+.box-body h1 {
+  font-size: 20px;
+  color: #3498db;
+  margin-top: 10px;
+}
+.box-body ul {
+  padding: 0 15px;
+  list-style: decimal outside;
+}
+.box-body ul li {
+  line-height: 1.7em;
+}
+.box-body table.information {
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+}
+.box-body table.information.nowrap {
+  white-space: nowrap;
+}
+.box-body table.information ul {
+  list-style-type: disc;
+}
+.box-body table.information thead {
+  text-align: center;
+}
+.box-body table.information td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.box-body table.information td ul {
+  white-space: normal;
+}
+.box-body .steps {
+  margin: 20px 0;
+  display: none;
+}
+.box-body .steps-other {
+  display: none;
+}
+.box-body .terms input.agree {
+  float: left;
+  margin: 10px;
+}
+.box-body .terms p {
+  margin-left: 30px;
+}
+.box-body .specific {
+  display: none;
+}
+.box-body .specific input[type=text] {
+  width: 20px;
+  margin: 0 5px;
+  text-align: center;
+}
+.box-body .specific select {
+  margin: 0 5px;
+}
+.box-body .step-title {
+  color: #3498db;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.box-body textarea {
+  width: 90%;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+.box-body select {
+  font-size: 15px;
+}
+.box-body ul.exp-question {
+  list-style: none;
+  counter-reset: xxx;
+}
+.box-body ul.exp-question li {
+  margin-left: 35px;
+}
+.box-body ul.exp-question li:before {
+  content: "(" counter(xxx) ")";
+  counter-increment: xxx;
+  display: inline-block;
+  margin: 0 10px 0 -25px;
+}
+.box-body #awards-type {
+  margin: 10px;
+}
+.box-body #clazz {
+  width: 50px;
+  text-align: center;
+}
+.box-body .btns {
+  margin: 25px auto;
+  text-align: center;
+}
+.box-body .work-hard {
+  float: right;
+  margin: 0 10px;
+}
+.box-body .work-hard:hover {
+  cursor: pointer;
+}
+.box-body #report-card {
+  display: block;
+  margin: auto;
+  width: 98%;
+}
+img.layout {
+  display: block;
+  margin: auto;
+  width: 98%;
+}

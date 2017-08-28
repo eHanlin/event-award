@@ -1,0 +1,137 @@
+#ehanlin-header {
+    text-align: right;
+}
+
+.box-body {
+    padding: 10px;
+    font-size: 12px;
+    p {
+        font-size: 15px;
+        padding: 5px;
+        color: black;
+        &.sweet-tip {
+            margin: 10px 0;
+            .head {
+                font-weight: bold;
+                font-size: 16px;
+                display: block;
+            }
+        }
+    }
+    h1 {
+        font-size: 20px;
+        color: #3498db;
+        margin-top: 10px;
+    }
+    ul {
+        padding: 0 15px;
+        list-style: decimal outside;
+        li {
+            line-height: 1.7em;
+        }
+    }
+    table.information {
+        width: 100%;
+        border: 1px solid black;
+        text-align: left;
+        &.nowrap {
+            white-space: nowrap;
+        }
+        ul {
+            list-style-type: disc;
+        }
+        thead {
+            text-align: center;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            ul {
+                white-space: normal;
+            }
+        }
+    }
+    .steps {
+        margin: 20px 0;
+        display: none;
+    }
+    .steps-other {
+        display: none;
+    }
+    .terms {
+        input.agree {
+            float: left;
+            margin: 10px;
+        }
+        p {
+            margin-left: 30px;
+        }
+    }
+    .specific {
+        display: none;
+        input[type=text] {
+            width: 20px;
+            margin: 0 5px;
+            text-align: center;
+        }
+        select {
+            margin: 0 5px;
+        }
+    }
+    .step-title {
+        color: #3498db;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    textarea {
+        width: 90%;
+        height: 150px;
+        display: block;
+        margin: auto;
+    }
+    select {
+        font-size: 15px;
+    }
+    ul.exp-question {
+        list-style: none;
+        counter-reset: xxx;
+        li {
+            margin-left: 35px;
+            &:before {
+                content: "(" counter(xxx) ")";
+                counter-increment: xxx;
+                display: inline-block;
+                margin: 0 10px 0 -25px;
+            }
+        }
+    }
+    #awards-type {
+        margin: 10px;
+    }
+    #clazz {
+        width: 50px;
+        text-align: center;
+    }
+    .btns {
+        margin: 25px auto;
+        text-align: center;
+    }
+    .work-hard {
+        float: right;
+        margin: 0 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    #report-card {
+        display: block;
+        margin: auto;
+        width: 98%;
+    }
+}
+
+img.layout {
+    display: block;
+    margin: auto;
+    width: 98%;
+}
