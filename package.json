@@ -1,12 +1,12 @@
 {
-  "name": "ad-hswriting",
+  "name": "award",
   "version": "0.0.1",
-  "description": "ad hswriting by ehanlin",
+  "description": "award by ehanlin",
   "main": "gulpfile.js",
   "author": "infinityAlive",
   "license": "ISC",
   "scripts": {
-    "test": "echo ad-hswriting"
+    "test": "echo award"
   },
   "devDependencies": {
     "del": "^3.0.0",
