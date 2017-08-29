@@ -35,6 +35,7 @@ var determineDeployProduction = () => {
       var entireFilePath;
       if (err) throw err;
       files.forEach(fileName => {
+        // 改換 html include S3 靜態資源的路徑
         if (/(.html)$/.test(fileName)) {
           entireFilePath = path.join(destinationDir, fileName);
           changeToCurrent();
