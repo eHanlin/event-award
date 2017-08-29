@@ -122,7 +122,6 @@ gulp.task("lessToCSS", lessToCSS("./src/css/less/**/*.less"));
 gulp.task("minifyCSS", minifyCSS("src/css/*.css"));
 gulp.task("minifyImage", minifyImage("src/img/*.png"));
 gulp.task("minifyJS", minifyJS("src/js/*.js"));
-
 gulp.task("package", () => {
   var deferred = Q.defer();
   Q.fcall(function() {
@@ -145,5 +144,3 @@ gulp.task("package", () => {
       templateUtil.logPromise(determineDeployProduction);
     });
 });
-
-//determineDeployProduction();
